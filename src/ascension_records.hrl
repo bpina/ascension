@@ -1,0 +1,3 @@
+-record(rooms, {id, name, group_id, sessions=[]}).
+-record(chat_sessions, {id, user_id}).
+-record(groups, {id, name, owner_id, users=[]}).

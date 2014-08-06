@@ -1,0 +1,17 @@
+{application, ascension,
+ [
+  {description, "WebSocket backend for Zanzibar"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  mnesia,
+                  cowboy,
+                  gproc,
+                  uuid,
+                  jiffy
+                 ]},
+  {mod, { ascension_app, []}},
+  {env, []}
+ ]}.

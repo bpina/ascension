@@ -4,3 +4,8 @@ deps
 *.beam
 *.plt
 erl_crash.dump
+ebin
+*.DCD
+*.DCL
+*.DAT
+*.LOG
